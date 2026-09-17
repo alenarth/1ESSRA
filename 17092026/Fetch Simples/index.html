@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora via API</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="box">
+        <h2>🧮 Calculadora com API</h2>
+        
+        <label for="num1">Primeiro Número:</label>
+        <input type="number" id="num1" value="15" placeholder="Digite o 1º número">
+
+        <label for="num2">Segundo Número:</label>
+        <input type="number" id="num2" value="25" placeholder="Digite o 2º número">
+
+        <button id="btnCalcular">Somar via API</button>
+
+        <div id="resultado">O resultado aparecerá aqui...</div>
+    </div>
+
+    <!-- ATENÇÃO À ORDEM: utils.js PRIMEIRO -->
+    <script src="js/utils.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
